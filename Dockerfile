@@ -9,4 +9,4 @@ COPY src/my_fristpy.py /WhampX692/whampx/app/
 
 RUN python my_fristpy.py
 # Specify the command to run when the container starts
-CMD ["python", "my_fristpy"]
+CMD ["python", "my_fristpy.py"]
