@@ -8,4 +8,4 @@ WORKDIR /app
 COPY . /app/
 
 # Specify the command to run when the container starts
-CMD ["python", "my_app.py"]
+CMD ["python", "my_fristpy.py"]
