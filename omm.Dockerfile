@@ -2,10 +2,10 @@
 FROM python:3.8
 
 # Set the working directory inside the container
-WORKDIR /app
+WORKDIR /WhampX692/whampx
 
 # Copy your application files into the container
-COPY . /app/
+COPY /WhampX692/whampx/
 
 # Specify the command to run when the container starts
 CMD ["python", "my_fristpy.py"]
