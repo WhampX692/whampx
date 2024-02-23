@@ -5,7 +5,7 @@ FROM python:3.8
 WORKDIR /WhampX692/whampx
 
 # Copy your application files into the container
-COPY /WhampX692/whampx/
+COPY . /WhampX692/whampx/
 
 # Specify the command to run when the container starts
 CMD ["python", "my_fristpy.py"]
