@@ -7,6 +7,5 @@ FROM python:3.8
 # Copy your application files into the container
 COPY src/myfristpy.py myfile.py
 
-RUN ["python","myfile.py"]
 # Specify the command to run when the container starts
 CMD ["python", "myfile.py"]
